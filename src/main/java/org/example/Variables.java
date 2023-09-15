@@ -19,5 +19,25 @@ public class Variables {
         System.out.println("Short max " + objShort);
         System.out.println("Int max " + objInteger);
         System.out.println("Long max " + objLong);
+
+        decimalNumbers();
+        logicValues();
+    }
+
+    public static void decimalNumbers(){
+        float myFloat = 3.14f;
+        double myDouble = 22.33;
+
+        Float objFloat = Float.MAX_VALUE;
+        Double objDouble = Double.MAX_VALUE;
+        System.out.println("Flout " + objFloat);
+        System.out.println("Double " + objDouble);
+    }
+
+    public static void logicValues(){
+        boolean jirka = true ;
+        Boolean objBool = Boolean.FALSE;
+
+        System.out.println("Boolean " + objBool);
     }
 }
