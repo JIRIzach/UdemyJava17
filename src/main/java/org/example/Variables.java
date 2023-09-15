@@ -3,6 +3,8 @@ package org.example;
 public class Variables {
     public static void main(String[] args) {
 
+        // Deklarace se zklada z urceni typu a jmena promenne
+        // Toto je deklarace promenne typu bayt se jmenem myFirtstByte
         byte  myFirstByte  = 2 ;
         short myFirstShort = 2 ;
         int   myFirstInt   = 2 ;
